@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF8">
+<title>Contact us</title>
+<link rel="stylesheet" href="atbk.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOs_cDJkZRtm8r41ZVD7OzCqT98KIdsYgMEQ&usqp=CAU" class="mybook"></h1>
+            <nav>
+                <ul class="menu">
+                    <li><button><a href="index.html">Home</a></button></li>
+                    <li><button><a href="login.html">Login</a></button></li>
+                    <li><button><a href="contact.html">Contact Us</a></button></li>
+                </ul>
+            </nav>
+                    <hr>
+        </div>
+    </header>
+    <main class="main_contact">
+        <div class="inputs">
+            <label for="name">Name: <input placeholder="Name" type="text" id="name" required></label> <br>
+            <label>Email: <input placeholder="youremail@xxx.com" type="email" required> </label> <br>
+            <label>Phone: <input placeholder="(XX) XX XXXXX-XXXX" type="tel"></label> <br>
+            <label>Write whatever you want: <textarea cols="70" rows="10" required></textarea></label>
+        </div>
+        <h4>How do you want to contact us?</h4>
+        <div class="radios">
+            <label for="radio-email">Email</label>
+            <input type="radio" id="radio-email" value="email" name="contato" checked>
+            <label for="radio-phone">Phone</label>
+            <input type="radio" id="radio-phone" value="phone" name="contato">
+            <label for="radio-whatsapp">Whatsapp</label>
+            <input type="radio" id="radio-whatsapp" value="whatsapp" name="contato" >
+            <div>
+                <p>What time you prefer to be called:</p>
+                <select>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Night</option>
+                </select>
+            </div>
+            <br>
+            <input class="submit" type="submit" value="submit">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dias</th>
+                     <th>Horarios</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h - 20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy;Copyright MyBook 2023</p>
+    </footer>
+</body>
+</html>
