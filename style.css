@@ -15,6 +15,34 @@ header
     padding: 20px 0;
 }
 
+.mybook
+{
+    opacity: 0.5;
+    transition: 500ms;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.mybook:hover
+{
+    opacity: 1;
+}
+
+.cabecalho
+{
+    text-shadow: 2px 2px rgb(211, 121, 36);
+}
+
+.atbk
+{
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+.atbk:hover
+{
+    box-shadow: 10px 10px 5px #000000;
+    opacity: 1;
+}
 .caixa
 {
     position: relative;
