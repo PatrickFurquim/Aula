@@ -1,12 +1,27 @@
+@media screen and (max-width: 480px){
+    body
+    {
+        background-color: red;
+    }
+    .atbk, .red_queen, .liars
+    {
+        width: auto;
+    }
+}
+
 body
 {
-    background-color: rgb(255, 255, 255);
+    background-color: #2d3839;
+    color: black;
+    margin:0;
+    padding: 0;
+    background: radial-gradient(circle, #2d3839, #4c5050, #121b1d);
 }
 header 
 {
-    background-color: rgb(245, 242, 242);
+    background-color: #27191c;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0px;
 }
 
 .caixa
@@ -23,13 +38,39 @@ nav
     right: 28px;
 }
 
+.titulo_cabecalho
+{
+    color: #f7efd8;
+}
+
+.botao_menu
+{
+    border: none;
+    width: 33%;
+    padding: 10px 20px 10px 20px;
+    background-color: #e0e4ce;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 3px;
+    
+}
+
+.botao_menu a
+{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+
 nav li
 {
     display: inline;
-    margin: 0 0 0 20px;
 }
 
-nav a:hover
+.botao_menu:hover
 {
     text-transform: uppercase;
     color:black;
@@ -40,7 +81,11 @@ nav a:hover
 
 .main_tittle
 {
-    background-color: rgb(192, 113, 113);
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: comic;
+    border-radius: 10px;
+    border: 5px solid black;
 }
 
 .all_book
@@ -56,29 +101,32 @@ nav a:hover
 
 }
 
+.atbk
+{
+    position: relative;
+    right: 15px;
+}
+
 .books li
 {
-    
     display: inline-block;
     text-align: center;
-    width: 27%;
+    width: 30%;
     margin: 0 1.5%;
     box-sizing: border-box;
     border: 2px solid black;
+    overflow: hidden;
+    color: #f5f1e4;
+    background-color: #27191c;
 }
 
 .books li:hover {
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
     box-sizing: border-box;
-    border: 4px solid rgb(0, 0, 0) ;
+    border: 4px solid rgb(255, 255, 255) ;
     border-radius: 15px;
 }
 
-.books li:hover h2
-{
-    font-size: 30px;
-}
+
 
 footer 
 {
@@ -99,7 +147,10 @@ footer
 {
     width: 940px;
     margin: 20px auto;
-
+    background-color: #5c8373;
+    border-radius: 7px;
+    border: 4px solid black;
+    color:#27191c;
 }
 
 .main_contact input
@@ -108,6 +159,7 @@ footer
     margin: 5px 20px;
     padding: 10px 20px;
     width: 50%;
+    
 }
 textarea
 {
@@ -115,23 +167,76 @@ textarea
     margin: 5px 20px;
     padding: 10px 20px;
     width: 50%;
+    border-radius: 10px;
+    border:2px solid black;
 }
+label
+{
+    font-family: Andale Mono, monospace;
+}
+#organizar
+{
+    margin: 0px 0px 0px 20px;
+    font-weight: bold;
+}
+
+
 .radios
 {
     display: inline;
+    position: relative;
+    bottom: 20px;
+}
 
+#hdywc
+{
+    position: relative;
+    bottom: 15px;
+    font-family: Andale Mono, monospace;
+}
+
+#pfonte
+{
+    font-family: Andale Mono, monospace;
+    font-size: 18.5px;
+}
+
+#radio-email
+{
+    display: inline;
+    position: relative;
+    right: 200px;
+}
+
+#radio-phone
+{
+    display: inline;
+    position: relative;
+    right: 200px;
+}
+
+#radio-whatsapp
+{
+    display: inline;
+    position: relative;
+    right: 226.8px;
 }
 
 .inputs
 {
-    display: block;
+    display: inline-block;
 }
 
+input
+{
+    border-radius: 10px;
+    border:2px solid black;
+}
 .submit
 {
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: #2d3839;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -143,21 +248,44 @@ textarea
 
 .submit:hover
 {
-    background: darkorange;
+    background: #000000;
     transform: scale(1.1);
 }
+
 
 table
 {
     margin:20px 0 40px;
+    position: relative;
+    left: 333px;
+    font-family: Andale Mono, monospace;
+}
 
+#select_hour
+{
+    border-radius: 7px;
+    position: relative;
+    left: 55px;
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #1f1f1f; 
+    background-color: #2e3333; 
+    color: #ffffff; 
+    font-family: Andale Mono, monospace;
 }
 
 thead
 {
-    background: #555555;
+    background: #273142;
     color: white;
     font-weight: bold;
+    
+}
+tbody
+{
+    background-color: #556270;
+    color: #f5f1e4;
+    font-size: 18px;
 }
 
 td,th
@@ -166,3 +294,24 @@ td,th
     padding: 8px 10px;
 }
 
+/*
+    Definições para pagina de login
+*/
+
+.dlogin
+{
+    text-align: center;
+    color: #f7efd8;
+}
+
+.hr_page {
+    border: none;
+    height: 4px;
+    background: #000000; /* Gradiente de cor */
+    margin: 30px 0;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    opacity: 0.8; /* Opacidade */
+    position: relative;
+    right: 10px;
+  }
