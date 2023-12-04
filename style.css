@@ -1,1 +1,264 @@
+@media screen and (max-width: 480px){
+    body
+    {
+        background-color: red;
+    }
+    .dragao 
+    {
+        width: auto;
+    }
+}
+body
+{
+    background-color: #2d3839;
+    color: black;
+    margin:0;
+    padding: 0;
+    background: radial-gradient(circle, #2d3839, #4c5050, #121b1d);
+}
+header 
+{
+    background-color: #27191c;
+    text-align: center;
+    padding: 20px 0px;
+}
 
+.nav_cabecalho
+{
+    position: relative;
+    top: 0px;
+    right: 35px;
+    display: inline;
+}
+
+.titulo_cabecalho
+{
+    color: #f7efd8;
+}
+
+.botao_menu
+{
+    border: none;
+    width: 33%;
+    padding: 10px 20px 10px 20px;
+    background-color: #e0e4ce;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 3px;
+}
+
+.botao_menu a
+{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.cabecalho
+{
+    text-shadow: 2px 2px rgb(211, 121, 36);
+    text-align: center;
+}
+
+
+
+nav li
+{
+    display: inline;
+    position: relative;
+    right: 18px;
+}
+
+.botao_menu:hover
+{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-style: 22px;
+    text-decoration: none;
+}
+
+
+.bcategoria
+{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    z-index: 10;
+    background-color: black;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 16px;
+}
+
+
+.atbk
+{
+    width: 300px;
+}
+
+.conteiner
+{
+    display: flex;
+}
+
+.resenha
+{
+    margin: 7px;
+    border-radius: 4px;
+    align-items: center;
+    display: inline-block;
+    width: 33%;
+    overflow: auto;
+    background-color: #08295e;
+    text-align: center;
+    color: white;
+    border: 3px solid black;
+}
+
+.resenha:hover
+{
+    margin: 3px;
+    border-radius: 6px;
+    border: 3px solid #cccccc;
+    align-items: left;
+    display: inline-block;
+    width: 33%;
+    overflow: auto;
+    background-color: #08295e;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.comentarios
+{
+    margin: 7px;
+    border-radius: 3px;
+    width: 33%;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    background-color: #472f5f;
+    color: white;
+    border: 3px solid black;
+}
+
+h3
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.person
+{
+    font-size: 15px;
+    background-color: rgba(53, 40, 40, 0.5);
+    border-radius: 5px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.mini_titulo
+{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(255, 217, 168);
+}
+
+
+
+.comentarios:hover
+{
+    margin: 3px;
+    border-radius: 6px;
+    border: 3px solid #cccccc;
+    width: 33%;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    background-color: #472f5f;
+}
+
+#ulcomentario
+{
+    text-align: left;
+}
+
+
+.comunidade
+{
+    margin: 7px;
+    display: inline-block;
+    overflow: auto;
+    width: 33%;
+    align-items: right;
+    background-color: #770827;
+    vertical-align: top;
+    color: white;
+    border: 3px solid black;
+}
+
+.comunidade:hover
+{
+    margin: 3px;
+    border-radius: 6px;
+    border: 3px solid #cccccc;
+    width: 33%;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.dragao
+{
+    position: relative;
+    left: 120px;
+}
+
+
+
+
+footer 
+{
+    text-align: center;
+    clear:left;
+    
+}
+
+.copyright
+{
+    color:rgb(143, 0, 0);
+    font-size: 20px;
+    
+}
+.mapa
+{
+    clear: left;
+    text-align: center;
+    padding:3em 30px;
+}
+
+.titulo-centralizado
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration:overline;
+}
+
+h2:before
+{
+    content: "★ ";
+}
