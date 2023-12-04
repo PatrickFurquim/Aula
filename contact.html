@@ -3,6 +3,7 @@
 <head>
 
 <meta charset="UTF8">
+<meta name="viewport" content="width: device-width">
 <title>Contact us</title>
 <link rel="stylesheet" href="atbk.css">
 </head>
@@ -10,35 +11,39 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOs_cDJkZRtm8r41ZVD7OzCqT98KIdsYgMEQ&usqp=CAU" class="mybook"></h1>
+           <h1 class="titulo_cabecalho">MY BOOK</h1>
             <nav>
                 <ul class="menu">
-                    <li><button><a href="index.html">Home</a></button></li>
-                    <li><button><a href="login.html">Login</a></button></li>
-                    <li><button><a href="contact.html">Contact Us</a></button></li>
+                    <li><a href="index.html"><button class="botao_menu">Home</button></a></li>
+                    <li><a href="login.html"><button class="botao_menu">Login</button></a></li>
+                    <li><a href="contact.html"><button class="botao_menu">Contact Us</button></a></li>
                 </ul>
             </nav>
                     <hr>
         </div>
     </header>
     <main class="main_contact">
+        <div id="organizar">
         <div class="inputs">
-            <label for="name">Name: <input placeholder="Name" type="text" id="name" required></label> <br>
+            <br>
+            <label for="name" class="organizar_name">Name: <input placeholder="Name" type="text" id="name" required></label> <br>
             <label>Email: <input placeholder="youremail@xxx.com" type="email" required> </label> <br>
             <label>Phone: <input placeholder="(XX) XX XXXXX-XXXX" type="tel"></label> <br>
             <label>Write whatever you want: <textarea cols="70" rows="10" required></textarea></label>
         </div>
-        <h4>How do you want to contact us?</h4>
+        <hr class="hr_page">
+        <div>
+        <h3 id="hdywc">How do you want to contact us?</h3>
         <div class="radios">
             <label for="radio-email">Email</label>
-            <input type="radio" id="radio-email" value="email" name="contato" checked>
+            <input type="radio" id="radio-email" value="email" name="contato" checked><br><br>
             <label for="radio-phone">Phone</label>
-            <input type="radio" id="radio-phone" value="phone" name="contato">
+            <input type="radio" id="radio-phone" value="phone" name="contato"><br><br>
             <label for="radio-whatsapp">Whatsapp</label>
-            <input type="radio" id="radio-whatsapp" value="whatsapp" name="contato" >
+            <input type="radio" id="radio-whatsapp" value="whatsapp" name="contato" ><hr class="hr_page">
             <div>
-                <p>What time you prefer to be called:</p>
-                <select>
+                <p id="pfonte">What time do you prefer to be called:</p>
+                <select id="select_hour">
                     <option>Morning</option>
                     <option>Afternoon</option>
                     <option>Night</option>
@@ -47,6 +52,7 @@
             <br>
             <input class="submit" type="submit" value="submit">
         </div>
+        <hr class="hr_page">
         <table>
             <thead>
                 <tr>
@@ -69,6 +75,8 @@
                 </tr>
             </tbody>
         </table>
+        <br>
+    </div>
     </main>
 
     <footer>
