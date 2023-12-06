@@ -1,13 +1,4 @@
-@media screen and (max-width: 480px){
-    body
-    {
-        background-color: red;
-    }
-    .dragao 
-    {
-        width: auto;
-    }
-}
+
 body
 {
     background-color: #2d3839;
@@ -228,9 +219,6 @@ h2
     left: 120px;
 }
 
-
-
-
 footer 
 {
     text-align: center;
@@ -261,4 +249,17 @@ footer
 h2:before
 {
     content: "★ ";
+}
+
+@media only screen and (max-width: 600px){
+
+    .dragao
+    {
+        width: auto;
+    }
+    .conteiner, .comentarios, .comunidade, .resenha
+    {
+        display: inline-block;
+        width: auto;
+    }
 }
