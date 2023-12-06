@@ -24,12 +24,7 @@ header
     padding: 20px 0px;
 }
 
-.caixa
-{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
+
 
 nav
 {
@@ -315,3 +310,46 @@ td,th
     position: relative;
     right: 10px;
   }
+
+  @media only screen and (max-width: 600px){
+
+    .books li
+    {
+        width: auto;
+        height: auto;
+        display: inline-block;
+    }
+    .books
+    {
+        width: auto;
+    }
+    .red_queen
+    {
+        width: 100%;
+    }
+    .liars
+    {
+        width: 100%;
+    }
+    .atbk
+    {
+        width: 100%;
+    }
+    body
+    {
+        width: auto;
+    }
+    header
+    {
+        display: inline-block;
+    }
+    .main_contact
+    {
+        width: auto;
+    }
+    table
+    {
+        width: auto;
+        left: auto;
+    }
+}
