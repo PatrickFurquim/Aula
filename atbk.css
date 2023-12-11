@@ -343,3 +343,47 @@ td,th
         left: auto;
     }
 }
+
+.area_carrinho
+{
+    display: grid;
+    height: 50vh;
+    place-items: left;
+}
+.box_carrinho
+{
+    outline: 5px solid black;
+    transition-property: background-color, border-radius;
+    transition-duration: 2s,0.5s;
+    transition-delay: 0.2s;
+    position: absolute;
+}
+.box_carrinho:hover
+{
+    background-color: blueviolet;
+    border-radius: 50%;
+    animation-name: dirigir;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+.area_carrinho img
+{
+    transform: translate(100px, 100px);
+    
+}
+.carrinho
+{
+    width: 200px;
+}
+@keyframes dirigir
+{
+    0%{
+        transform: translateX(0);
+    }
+    30%{
+
+    }
+    100%{
+        transform: translateX(80vw);
+    }
+}
